@@ -20,6 +20,7 @@ El objetivo es disponer de una estructura escalable y mantenible que permita inc
 
 # Estructura del proyecto
 
+```bash
 proyecto_final/
 │
 ├── pages/
@@ -64,6 +65,7 @@ proyecto_final/
 ├── pytest.ini
 ├── conftest.py
 └── README.md
+```
 
 # Funcionalidades implementadas
 
