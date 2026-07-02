@@ -137,6 +137,68 @@ Se implementó un sistema de logging para registrar los pasos importantes durant
 
 Los archivos de log se almacenan en:
 
+#  Instalación
+
+## Clonar el repositorio
+bash
+git clone https://github.com/USUARIO/proyecto_final.git
+Ingresar al proyecto:
+
+bash
+cd proyecto_final
+
+Crear un entorno virtual:
+
+Windows
+bash
+python -m venv .venv
+Activar el entorno:
+
+bash
+.venv\Scripts\activate
+
+Instalar las dependencias:
+
+bash
+pip install -r requirements.txt
+
+# Ejecución de pruebas
+
+## Ejecutar todas las pruebas con Pytest
+
+bash
+pytest
+
+## Ejecutar únicamente pruebas UI
+
+bash
+pytest tests/ui
+
+
+## Ejecutar únicamente pruebas API
+
+bash
+pytest tests/api
+
+
+## Ejecutar pruebas BDD con Behave
+
+bash
+python -m behave
+
+
+# Generación de reportes
+
+Para generar un reporte HTML:
+
+bash
+pytest --html=reports/reporte.html --self-contained-html
+
+
+El reporte quedará disponible en:
+
+
+reports/reporte.html
 
 # Dependencias principales
 
